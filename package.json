@@ -1,0 +1,14 @@
+{
+  "name": "Organique-WP",
+  "version": "0.0.0",
+  "private": true,
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-compass": "*",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-concurrent": "*",
+    "matchdep": "*",
+    "grunt-autoprefixer": "*",
+    "grunt-contrib-requirejs": "^0.4.4"
+  }
+}
