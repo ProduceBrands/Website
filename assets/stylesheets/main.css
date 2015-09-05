@@ -1275,3 +1275,17 @@ input[type=number] { -moz-appearance: textfield; }
 
 /*.banners-big { display: none; }*/
 .textwidget .pt-cv-readmore { display: none; }
+
+.posRel { position: relative; }
+.headerSocial {
+  position: absolute;
+  right: 18px;
+  top: 41px;
+}
+.headerSocial a {
+  color: #41494D;
+  margin-left: 15px;
+}
+.headerSocial i {
+  font-size: 20px;
+}

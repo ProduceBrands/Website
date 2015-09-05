@@ -70,7 +70,7 @@
 
 	<header class="header<?php echo get_theme_mod( 'fixed_static_nav', 'static' ) === 'fixed' ? '  js--navbar' : ''; ?>">
 		<div class="container">
-			<div class="row">
+			<div class="row posRel">
 				<div class="col-xs-10  col-md-3  reset-min-height">
 					<div class="header-logo">
 						<a class="brand" href="<?php echo home_url(); ?>">
@@ -154,6 +154,12 @@
 				<?php
 					endif;
 				?>
+			</div>
+			<div class="headerSocial hidden-sm  hidden-xs">
+				<a href="http://twitter.com/producebrands"><i class="fa fa-twitter-square"></i></a>
+				<a href="http://instagram.com/producebrands"><i class="fa fa-instagram"></i></a>
+				<a href="http://facebook.com/ProduceBrands"><i class="fa fa-facebook-official"></i></a>
+				<a href="http://pinterest.com/producebrands"><i class="fa fa-pinterest-square"></i></a>
 			</div>
 		</div>
 	</div>
