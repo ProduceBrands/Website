@@ -171,6 +171,7 @@
 				<a href="http://instagram.com/producebrands"><i class="fa fa-instagram"></i></a>
 				<a href="http://facebook.com/ProduceBrands"><i class="fa fa-facebook-official"></i></a>
 				<a href="http://pinterest.com/producebrands"><i class="fa fa-pinterest-square"></i></a>
+				<a href="https://www.youtube.com/channel/UCrqNRqPxkOx_FzXZuqlrdYA"><i class="fa fa-youtube-square"></i></a>
 			</div>
 		</div>
 	</div>
