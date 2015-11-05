@@ -1,3 +1,3 @@
-# ProduceBrands WordPress Website
+# Produce Brands Theme
 
 - [http://producebrands.com](http://producebrands.com)
