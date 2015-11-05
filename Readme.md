@@ -1,3 +1,3 @@
-# Produce Brands Theme
+## Parker Hill Website
 
-- [http://producebrands.com](http://producebrands.com)
+[See Theme Files Here](https://github.com/twhitacre/ParkerHill/tree/master/wp-content/themes/ParkerHill)
