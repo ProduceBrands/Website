@@ -6,7 +6,6 @@
 				<div class="page-not-found__background">
 					<img src="<?php echo get_template_directory_uri() . '/assets/images/404.png'; ?>" alt="<?php _e( 'Error 404' , 'organique_wp' ); ?>" width="217" height="222" />
 				</div>
-				<h1><span class="light">Error.</span> http://allwordpressthemesdownload.blogspot.com Looks Like Something Went Wrong!</h1>
 				<hr class="divider">
 				<p class="page-not-found__text">
 					<?php _e( 'Looks like something went wrong! The page you were looking for is not here.' , 'organique_wp' ); ?><br />
