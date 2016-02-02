@@ -247,3 +247,9 @@ if ( ! function_exists( 'ssp_archive_slug' ) ) {
 	  return 'bad-podcast-feed';
 	}
 }
+if ( ! function_exists( 'ssp_feed_slug' ) ) {
+	add_filter( 'ssp_feed_slug', 'ssp_modify_podcast_feed_slug' );
+	function ssp_modify_podcast_feed_slug ( $slug ) {
+	  return 'new-slug';
+	}
+}
