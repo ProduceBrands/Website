@@ -239,3 +239,11 @@ if ( ! function_exists( 'organique_check_for_updates' ) ) {
 	}
 	add_action( 'after_setup_theme', 'organique_check_for_updates' );
 }
+
+// Podcast Fix
+if ( ! function_exists( 'ssp_archive_slug' ) ) {
+	add_filter( 'ssp_archive_slug', 'ssp_modify_podcast_archive_slug' );
+	function ssp_modify_podcast_archive_slug ( $slug ) {
+	  return 'bad-podcast-feed';
+	}
+}
