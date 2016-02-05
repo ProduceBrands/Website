@@ -253,3 +253,25 @@ if ( ! function_exists( 'ssp_feed_slug' ) ) {
 	  return 'new-slug';
 	}
 }
+
+////////////////////////////////////////
+//////// Podcast Register
+////////////////////////////////////////
+function podcast_register() {
+	$args = array(
+    	'label' => __('Podcast'),
+    	'singular_label' => __('podcast'),
+    	'public' => true,
+    	'show_ui' => true,
+    	'capability_type' => 'post',
+    	'hierarchical' => true,
+    	'_builtin' => false,
+    	'supports' => array('title','editor','page-attributes'),
+    	'menu_icon' => 'dashicons-media-audio',
+    	'rewrite' => array('slug'=>'podcast','with_front'=>false),
+    	'menu_position' => 20
+    );
+	register_post_type( 'podcast' , $args );
+	flush_rewrite_rules();
+}
+add_action('init', 'podcast_register');
